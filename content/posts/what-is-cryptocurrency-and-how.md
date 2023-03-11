@@ -1,7 +1,7 @@
 ---
 author: "alvernod"
 title: "Cryptocurrency, What and How"
-date: 2023-01-12T21:48:57+07:00
+date: 2023-02-28T21:48:57+07:00
 draft: false 
 tags: ["crypto"]
 ---

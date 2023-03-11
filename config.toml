@@ -43,19 +43,24 @@ selectable = true
 
 #menu
 [[menu.main]]
+identifier = "/"
+name = "Front"
+weight = 1
+
+[[menu.main]]
 identifier = "about"
 name = "About"
-weight = 1
+weight = 2
 
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
-weight = 2
+weight = 3
 
 [[menu.main]]
-identifier = "https://mybae.id/#project"
+identifier = "projects"
 name = "Project"
-weight = 3
+weight = 4
 
 
 #taxonomies
