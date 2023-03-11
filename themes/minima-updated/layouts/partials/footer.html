@@ -1,0 +1,22 @@
+<footer class="mt-8 mb-8">
+  <div class="container mx-auto">
+    <div class="mt-8 flex justify-between items-center">
+      <p class="mt-0 text-sm">
+        {{ .Site.Copyright }} © 
+        <a href="https://mybae.id" target="_blank" rel="mybae.id">mybae.id</a></p>
+      <p class="flex items-center mt-0">
+        <i class="fab fa-twitter"></i>
+        
+        {{ range $_, $key := .Site.Params.Social }}
+          <a class="icon ml-1 mr-1" href="{{ $key.url }}" title="{{ $key.name }}">
+          {{ if $key.svg }}
+            {{ $key.svg | safeHTML }}
+          {{ else }}
+            {{ index $.Site.Data.svg $key.name | safeHTML }}
+          {{ end }}
+          </a>
+        {{ end }}
+      </p>
+    </div>
+  </div>
+</footer>

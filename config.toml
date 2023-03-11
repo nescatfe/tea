@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Alvernood's"
+copyright = 2023
+googleAnalytics = "G-CMGTH927C8"
+paginate = 10
+theme = "minima-updated"
+defaultContentLanguage = "en"
+
+[author]
+name = "Alvernood"
+description = "Spending my free time tinkering with code and exploring new ways to express myself through writing."
+
+[params]
+brand = "Alvernood"
+greet = "👋 Hey there, I'm Fajar!"
+switch = [ "☼", "☽" ]
+defaultTheme = "light"
+displayDate = true
+displayDescription = false
+selectable = true
+
+  [[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/fiiascoo"
+
+  [[params.social]]
+  name = "github"
+  url = "https://github.com/nescatfe/"
+
+  [[params.social]]
+  name = "instagram"
+  url = "https://instagram.com/fajar.wh"
+
+  [params.math]
+  enable = false
+  provider = "katex"
+
+  [params.diagram]
+  enable = false
+  provider = "mermaid"
+
+
+#menu
+[[menu.main]]
+identifier = "about"
+name = "About"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+weight = 2
+
+[[menu.main]]
+identifier = "https://mybae.id/#project"
+name = "Project"
+weight = 3
+
+
+#taxonomies
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup.highlight]
+lineNos = true
+noClasses = false
