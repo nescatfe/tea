@@ -18,7 +18,7 @@ cascade = {_build = {list = "always"}}
 ```mermaid
 flowchart TB
 
-A(((Indonesia Bank))) -->|top-up| B((Exchange-id))
+A(((Indonesia Bank))) -->|Deposit| B((Exchange-id))
 B --> BC(Buy Crypto)
 BC --> C(Hold)
 C --> D[Harga Naik] -->|Seneng| H(Take Profit & Sell)
