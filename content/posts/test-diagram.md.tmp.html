@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+<p>+++
+author = "Alvernood"
+title = 'Test Diagram'
+date = 2023-03-12T06:23:01+07:00
+draft = false
+description = ''
+tags = ['']
+categories = ['']
+diagram = true
+math = false
+<em>build = {list = "always"}
+cascade = {</em>build = {list = "always"}}
++++</p>
+
+<p>Flowchart</p>
+
+<p><code>
+Bank -&gt; exchange (id) -&gt; buy assets -&gt; hold -&gt; naik / turun
+naik -&gt; jual
+turun -&gt; hold/cutloss
+exchange (id) -&gt; bank
+</code></p>
+
+<p>```mermaid</p>
+
+<p>A(Bank) --> |top-up| B(Exchange (id))
+B --> C{Hold}
+C --> |Naik| D[Sell]
+C --> |Turun| E[Hold]</p>
+
+<p>```</p>
