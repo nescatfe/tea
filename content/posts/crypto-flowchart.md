@@ -35,7 +35,7 @@ F -.-> I(sedih)
 F -.-> J(menangis)
 F -.-> K(menyesal)
 A --> PJ[/Bayar Pajak/]
-H -->|Transfer & Simpen| block(Blockchain - Metamask)
+H -->|Transfer & Simpen| block((Blockchain - Metamask))
 block --> GP[/Gak Bayar Pajak Kekayaan/]
 block -->|transfer| A
 ```
