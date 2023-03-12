@@ -50,17 +50,3 @@ function switch_minima_theme(current, next) {
     localStorage.setItem('theme', next);
     toggler.innerHTML = icon;
 }
-
-/** @param {string} theme  */
-function switch_utterances_theme(theme) {
-    utterances =utterances || document.querySelector('iframe.utterances-frame')
-    if (!utterances) return
-    utterances.contentWindow.postMessage({ type: 'set-theme', theme }, 'https://utteranc.es')
-}
-
-/** @param {string} theme */
-function switch_giscus_theme(theme) {
-    giscus = giscus || document.querySelector('iframe.giscus-frame')
-    if (!giscus) return
-    giscus.contentWindow.postMessage({giscus: {setConfig: {theme}}}, 'https://giscus.app')
-}
