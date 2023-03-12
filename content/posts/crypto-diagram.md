@@ -16,18 +16,24 @@ cascade = {_build = {list = "always"}}
 #### Flowchart kalo lo jual dan beli Crypto assets
 
 ```mermaid
-flowchart LR
+flowchart TB
 
 A(((Indonesia Bank))) -->|top-up| B((Exchange-id))
-B -->|Buy Crypto| C(Hold)
-C --> D[Harga Naik] -->|Seneng| H(Jual)
+B --> BC(Buy Crypto)
+BC --> C(Hold)
+C --> D[Harga Naik] -->|Seneng| H(Take Profit & Sell)
 C --> E[Harga Turun]
 E -->|Sell| F[Cutloss]
+F -..- re-invest -.-> B
 E --> G[Hold]
 G --> D
 G --> E
-H -->|Transfer| A
+H -->|Transfer & Simpen di Bank| A
 F --> I(sedih)
 F --> J(menangis)
 F --> K(menyesal)
+A -.- PJ[/Bayar Pajak\]
+H -->|transfer| block(Blockchain - Metamask)
+block --> GP[/Gak Bayar Pajak Kekayaan\]
+GP -.->|transfer| A
 ```
