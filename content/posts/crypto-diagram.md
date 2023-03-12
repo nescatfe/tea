@@ -37,5 +37,5 @@ F -.-> K(menyesal)
 A --> PJ[/Bayar Pajak/]
 H -->|Transfer & Simpen| block(Blockchain - Metamask)
 block --> GP[/Gak Bayar Pajak Kekayaan/]
-GP -->|transfer| A
+block -->|transfer| A
 ```
