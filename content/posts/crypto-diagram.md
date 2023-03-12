@@ -13,7 +13,8 @@ cascade = {_build = {list = "always"}}
 +++
 
 
-#### Flowchart kalo lo jual dan beli Crypto assets
+#### Flowchart kalo lo jual dan beli Crypto Aset
+
 
 ```mermaid
 flowchart TB
@@ -24,7 +25,8 @@ BC --> C(Hold)
 C --> D[Harga Naik] -->|Seneng| H(Take Profit & Sell)
 C --> E[Harga Turun]
 E -.->|Sell| F[Cutloss]
-F -..- re-invest -.-> B
+F -..- RI[re-invest] -.-> B
+H -..-> RI
 E -.-> G[Hold]
 G -.-> D
 G -.-> E
