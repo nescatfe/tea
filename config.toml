@@ -31,6 +31,7 @@ selectable = true
   [[params.social]]
   name = "instagram"
   url = "https://instagram.com/fajar.wh"
+  
 
   [params.math]
   enable = false
@@ -44,7 +45,7 @@ selectable = true
 #menu
 [[menu.main]]
 identifier = "/"
-name = "Front"
+name = "Home"
 weight = 1
 
 [[menu.main]]
@@ -57,10 +58,6 @@ identifier = "tags"
 name = "Tags"
 weight = 3
 
-[[menu.main]]
-identifier = "projects"
-name = "Project"
-weight = 4
 
 
 #taxonomies
