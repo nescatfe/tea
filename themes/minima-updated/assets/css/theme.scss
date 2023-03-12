@@ -20,9 +20,9 @@
 }
 
 .dark {
-  --prime: silver;
+  --prime: #3170a7;
   --back: #181818;
-  --text: #F5F5F5;
+  --text: silver; /* #F5F5F5 or silver*/
   --grid: #555;
   
   // code highlighting
