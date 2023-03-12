@@ -1,7 +1,7 @@
 +++
 author = "Alvernood"
 title = 'Vue.js'
-date = 2023-03-11T15:39:41+07:00
+date = 2023-02-12T15:39:41+07:00
 draft = false
 description = ''
 tags = ['']
