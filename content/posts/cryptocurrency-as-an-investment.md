@@ -30,16 +30,16 @@ dari [ethereum chart](https://www.coingecko.com/en/coins/ethereum) kita bisa lia
 Dari kedua chart tersebut bisa diliat kalo emang naik-turun harga crypto itu __fluktuatif__, tapi dibalik itu semua ada istilah
 > high risk high return.
 
-Sesuatu yang mempunyai resiko tinggi, pasti ngasih feedback yang lebih juga, kaya _kang_ welder bawah laut, dia ngelas tiang atau memperbaiki badan kapal dibawah laut dengan resiko kecelakaan kerja tinggi, tapi bayarannya juga. Kerja di tambang juga resikonya gede, tapi bayarannya juga gede.
+Sesuatu yang mempunyai resiko tinggi, pasti ngasih feedback yang lebih juga, kaya _kang_ welder bawah laut, dia ngelas tiang atau badan kapal dibawah laut dengan resiko kecelakaan kerja tinggi, tapi bayarannya juga. Kerja di tambang juga resikonya gede, tapi bayarannya juga gede.
 
 ![underwater welding](https://cdn.canadianmetalworking.com/a/diving-into-underwater-welding-and-burning-1563372562.jpg)
 
 Nah sampai sini gue juga masih __tidak menyarankan__ buat investasiin duit kalian ke crypto.
 > Investing in crypto can be a risky endeavor, as the market can be volatile and unpredictable.
 
-#### Risk Management
+#### Risk manajement
 
-Strategi Managemen adalah untuk mengurangi pontensi _losses_ dan memaksimalkan _return_
+Strategi manajemen adalah untuk mengurangi pontensi _losses_ dan memaksimalkan _return_
 
 1. Diversifikasi, adalah salah satu strategi manegemen yang bisa dilakukan dengan _melebarkan_ aset investasi secara luas di berbagai sektor untuk mengurangi _overall risk_, jadi nih misal crypto lagi _sueee_ banget, aset investasi lain masih bisa nutup, misal harga properti naik, harga _niche_ jam tangan juga naik, harga saham _(?)_ naik. Ada istilah
 > Don’t put all your eggs in one basket.
@@ -51,7 +51,7 @@ Strategi Managemen adalah untuk mengurangi pontensi _losses_ dan memaksimalkan _
 5. Timing, nih berhubungan nih ama poin2 sebelumnya. Ngerti market trend sama _news event_, karena dua hal tersebut bisa mempengaruhi naik-turunnya harga.
 6. Regular Monitoring, terakhir, memantau investasi crypto dan menyesuaikan strategi, rebalancing portofolio, take profit kalo emang dirasa cukup _(jangan maruk)_, portofolio udah naik 400% ditahan2 ga dijual :( _sad_
 7. Bonus, re-investing
-> In summary, investing in crypto can be a high-risk, high-reward proposition. However, by implementing effective risk management strategies, investors can minimize potential losses and increase their chances of generating returns
+> In summary, investing in crypto can be a high-risk, high-reward proposition. However, by implementing effective risk manajement strategies, investors can minimize potential losses and increase their chances of generating returns
 
 ![image_post](/img/16782.jpeg)
 
