@@ -2,7 +2,6 @@ recent:
   other: Postingan Terbaru
 older:
   other: Postingan Lama
-
 home:
   other: Beranda
 about:
@@ -13,16 +12,13 @@ tags:
   other: Tags
 series:
   other: Series
-
 timeformat:
   other: 2 Jan 2006
-
 paginator:
   prev:
     other: Sebelumnya
   next:
     other: Selanjutnya
-
 post:
   at:
     other: Postingan pada

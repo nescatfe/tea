@@ -2,7 +2,6 @@ recent:
   other: Recent Writings
 older:
   other: Older Writings
-
 home:
   other: Home
 about:
@@ -13,16 +12,13 @@ tags:
   other: Tags
 series:
   other: Series
-
 timeformat:
   other: Jan 02, 2006
-
 paginator:
   prev:
     other: Newer
   next:
     other: Older
-
 post:
   at:
     other: Published on
