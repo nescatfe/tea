@@ -13,6 +13,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-size: 17px;
   -webkit-text-size-adjust: 100%;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -37,7 +38,6 @@ main {
 main p a {
   color: var(--prime);
 }
-
 
 main p a:hover {
   text-decoration: underline;

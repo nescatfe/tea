@@ -1,7 +1,7 @@
 +++
 author = "Alvernood"
 title = 'Cryptocurrency Flowchart'
-date = 2023-03-10T06:23:01+07:00
+date = 2022-08-10T06:23:01+07:00
 draft = false
 description = ''
 tags = ['crypto']
@@ -12,9 +12,9 @@ _build = {list = "always"}
 cascade = {_build = {list = "always"}}
 +++
 
-
-#### Interesting Cryptocurrency Flowchart
-
+---
+### Interesting Cryptocurrency Flowchart
+---
 
 ```mermaid
 flowchart TB
@@ -41,6 +41,6 @@ block -.->|Money Laundering| NFT[NFT / Cryptocurrency]
 NFT --> G
 block -.->|DEX| UP(Uniswap / PancakeSwap)
 UP --> BC
-block -.->|Simpen Uang| SC[Stable Coin USDT/BUSD/USDC]
+block -..->|Simpen Uang| SC[Stable Coin USDT/BUSD/USDC]
 SC -.-> GP[/No Tax./]
 ```

@@ -5,7 +5,3 @@
 {{ if or .Params.diagram (and .Site.Params.diagram.enable (ne .Params.diagram false)) }}
 {{ partial "diagram.html" . }}
 {{ end }}
-
-{{ if or .Params.comment (and .Site.Params.comment.enable (ne .Params.comment false)) }}
-{{ partial "comment.html" . }}
-{{ end }}
