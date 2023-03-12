@@ -22,7 +22,7 @@ A(((Indonesia Bank))) -->|Deposit| B((Exchange-id))
 B --> BC(Buy Crypto)
 BC --> C(Hold)
 C --> D[Harga Naik] -->|Seneng| H(Take Profit & Sell)
-C -.-> E[Harga Turun]
+C --> E[Harga Turun]
 E -.->|Sell| F[Cutloss]
 F -..- re-invest -.-> B
 E -.-> G[Hold]
