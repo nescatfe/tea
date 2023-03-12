@@ -22,18 +22,18 @@ A(((Indonesia Bank))) -->|Deposit| B((Exchange-id))
 B --> BC(Buy Crypto)
 BC --> C(Hold)
 C --> D[Harga Naik] -->|Seneng| H(Take Profit & Sell)
-C --> E[Harga Turun]
-E -->|Sell| F[Cutloss]
+C -.-> E[Harga Turun]
+E -.->|Sell| F[Cutloss]
 F -..- re-invest -.-> B
-E --> G[Hold]
-G --> D
-G --> E
+E -.-> G[Hold]
+G -.-> D
+G -.-> E
 H -->|Transfer & Simpen| A
-F --> I(sedih)
-F --> J(menangis)
-F --> K(menyesal)
-A -.- PJ[/Bayar Pajak\]
+F -.-> I(sedih)
+F -.-> J(menangis)
+F -.-> K(menyesal)
+A --> PJ[/Bayar Pajak/]
 H -->|Transfer & Simpen| block(Blockchain - Metamask)
-block --> GP[/Gak Bayar Pajak Kekayaan\]
-GP -.->|transfer| A
+block --> GP[/Gak Bayar Pajak Kekayaan/]
+GP -->|transfer| A
 ```
