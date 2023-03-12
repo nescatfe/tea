@@ -28,12 +28,12 @@ F -..- re-invest -.-> B
 E --> G[Hold]
 G --> D
 G --> E
-H -->|Transfer & Simpen di Bank| A
+H -->|Transfer & Simpen| A
 F --> I(sedih)
 F --> J(menangis)
 F --> K(menyesal)
 A -.- PJ[/Bayar Pajak\]
-H -->|transfer| block(Blockchain - Metamask)
+H -->|Transfer & Simpen| block(Blockchain - Metamask)
 block --> GP[/Gak Bayar Pajak Kekayaan\]
 GP -.->|transfer| A
 ```
