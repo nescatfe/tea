@@ -7,6 +7,7 @@
   {{ template "_internal/google_analytics.html" . }}
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#262d33">
+  <meta http-equiv="Cache-Control" content="max-age=31536000, public">
   <title>
     {{ if .IsHome }}
     {{ .Site.Title }} {{ if .Site.Params.subtitle }} - {{ .Site.Params.subtitle }} {{ end }}
