@@ -31,7 +31,7 @@ $heading: (h1, 2.25, 800), (h2, 2, 700), (h3, 1.75, 600), (h4, 1.5, 600),
     font-size: 2em;
     line-height: 0.1em;
     margin-right: 0.25em;
-    vertical-align: -0.7em;
+    vertical-align: -0.4em;
   }
   
   &::after {
@@ -39,7 +39,7 @@ $heading: (h1, 2.25, 800), (h2, 2, 700), (h3, 1.75, 600), (h4, 1.5, 600),
     font-size: 2em;
     line-height: 0.1em;
     margin-left: 0.25em;
-    vertical-align: -0.2em;
+    vertical-align: -0.4em;
   }
 }
 
