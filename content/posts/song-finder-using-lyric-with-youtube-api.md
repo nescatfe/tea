@@ -17,9 +17,9 @@ Jadi jujur sebenernya ini agak `useless`, tapi gue tetep mau coba ini ntar larin
 
 > Application Programming Interface, is a set of protocols, routines, and tools for building software applications. Essentially, an API specifies how different software components should interact with each other, and it allows developers to access and manipulate the functionality and data of a particular software system or service.
 
-Singkatnya API ini bisa dipake buat komunikasi antara aplikasi yang berbeda, kita bisa bikin aplikasi baru pake layanan aplikasi sama sistem yang sudah ada. Contohnya sih dulu ada __TweetDeck__, jadi kita bikin tweet pake aplikasi yang bukan resmi dari Twitter, ada lagi _instagram_++, _whatsapp gb_, nah itu semua pake API, cuma kalo _whatsapp gb_ sama _instagram++_ yang bisa download video langsung dari aplikasinya itu jatohnya sih __ilegal__.
+Singkatnya API ini bisa dipake buat komunikasi antara aplikasi yang berbeda, kita bisa bikin aplikasi baru pake layanan aplikasi sama sistem yang sudah ada. Contohnya sih dulu ada __TweetDeck__, jadi kita bikin tweet pake aplikasi yang bukan resmi dari Twitter.
 
-`TL;DR`, gue kepikiran pake API youtube buat nampilin hasil search pake javascript trus gue mau hasilnya _tar_ yang keluar adalah adalah kategori musik (bukan video _vlog/podcast or other shits_) beserta link-nya, terus ntar tinggal gue kembangin mau dibawah kemana. hubungan kita
+`TL;DR`, gue kepikiran pake API youtube buat nampilin hasil search pake javascript trus gue mau hasilnya _tar_ yang keluar adalah adalah kategori musik (bukan video _vlog/podcast or other shits_) beserta link-nya, terus ntar tinggal gue kembangin mau dibawa kemana.
 
 **youtube-api.js**
 ```Javascript
@@ -59,7 +59,7 @@ nah disini gue akan coba masukin `searchQuery` tiga kali
 * _tak cukup untuk dirimu_
 * _so mature_
 
-*so far result*nya sama seperti apa yang gue mau, _smooth af_
+so far, smooth af
 ![query result](/img/test-api-lyric.png)
 
-udahan ah sampe sini gue mau istirahat dulu, updatenya _tarrrrrrr_
+udahan ah sampe sini gue mau istirahat dulu, update lagi tar
