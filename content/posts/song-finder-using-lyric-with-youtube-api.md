@@ -1,6 +1,6 @@
 +++
 author = "Alvernood"
-title = 'Song Finder Using Lyric With Youtube API'
+title = 'Song Finder using Youtube API'
 date = 2023-03-14T00:26:03+07:00
 draft = false
 description = ''
