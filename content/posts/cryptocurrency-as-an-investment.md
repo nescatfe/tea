@@ -37,7 +37,7 @@ Sesuatu yang mempunyai resiko tinggi, pasti ngasih feedback yang lebih juga, kay
 Nah sampai sini gue juga masih __tidak menyarankan__ buat investasiin duit kalian ke crypto.
 > Investing in crypto can be a risky endeavor, as the market can be volatile and unpredictable.
 
-#### Risk manajement
+#### Risk manajemen
 
 Strategi manajemen adalah untuk mengurangi pontensi _losses_ dan memaksimalkan _return_
 
@@ -51,7 +51,7 @@ Strategi manajemen adalah untuk mengurangi pontensi _losses_ dan memaksimalkan _
 5. Timing, nih berhubungan nih ama poin2 sebelumnya. Ngerti market trend sama _news event_, karena dua hal tersebut bisa mempengaruhi naik-turunnya harga.
 6. Regular Monitoring, terakhir, memantau investasi crypto dan menyesuaikan strategi, rebalancing portofolio, take profit kalo emang dirasa cukup _(jangan maruk)_, portofolio udah naik 400% ditahan2 ga dijual :( _sad_
 7. Bonus, re-investing
-> In summary, investing in crypto can be a high-risk, high-reward proposition. However, by implementing effective risk manajement strategies, investors can minimize potential losses and increase their chances of generating returns
+> In summary, investing in crypto can be a high-risk, high-reward proposition. However, by implementing effective risk manajemen strategies, investors can minimize potential losses and increase their chances of generating returns
 
 ![image_post](/img/16782.jpeg)
 
