@@ -7,7 +7,7 @@ tags: ["crypto"]
 ---
 
 #### Cryptocurrency
-Adalah mata uang digital yang menggunakan _kriptografi_ untuk mengamankan dan memverifikasi transaksi. Crypto ga dikendaliin sama pemerintah atau Bank Central karena menggunakan blockchain yang memungkinkan transaksi dilakukan secara _terdesentralisasi_ (tidak terpusat) dan _trackable_.
+Adalah mata uang digital yang menggunakan _kriptografi_ untuk mengamankan dan melakukan verifikasi transaksi. Crypto ga dikendaliin sama pemerintah atau Bank Central karena menggunakan blockchain yang memungkinkan transaksi dilakukan secara _terdesentralisasi_ (tidak terpusat) dan _trackable_.
 
 __Cryptocurrency, Bitcoin, Ethereum, Proof of Work__
 {{< youtube XLcWy1uV8YM >}}
