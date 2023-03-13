@@ -44,8 +44,8 @@ selectable = true
 
 #menu
 [[menu.main]]
-identifier = "/"
-name = "Home"
+identifier = "/posts"
+name = "Writing"
 weight = 1
 
 [[menu.main]]
