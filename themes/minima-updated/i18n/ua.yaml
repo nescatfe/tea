@@ -16,9 +16,16 @@ timeformat:
   other: Jan 02, 2006
 paginator:
   prev:
+    one: Новіші
+    few: Новіші
+    many: Новіші
     other: Нові
   next:
+    one: Старіші
+    few: Старіші
+    many: Старіші
     other: Старі
 post:
   at:
     other: Опубліковано
+    
