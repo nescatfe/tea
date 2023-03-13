@@ -1,5 +1,5 @@
 ---
-author: "alvernod"
+author: "Alvernood"
 title: "Cryptocurrency as an Investment"
 date: 2023-02-28T21:48:57+07:00
 draft: false 
