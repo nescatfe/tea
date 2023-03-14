@@ -96,13 +96,16 @@ const searchQuery = searchQueryInput.value;
 fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=${searchQuery}&type=video&videoCategoryId=10&key=${apiKey}`)
 .then(response => response.json()) // Parse the response as JSON
 .then(data => {
+
 // Handle errors from the API request
 if (data.error && data.error.code === 403 && data.error.errors[0].reason === 'dailyLimitExceeded') {
+
 // Display an error message to the user when the API daily limit has been exceeded
 const resultContainer = document.createElement('div');
 resultContainer.textContent = 'YouTube API daily limit has been exceeded. Please try again tomorrow.';
 document.querySelector('#results-container').appendChild(resultContainer);
 } else {
+
 // Parse the results from the API response and create an array of objects for each video
 const results = data.items.map((item, index) => {
 const title = item.snippet.title.length > 40
@@ -118,11 +121,13 @@ const resultContainer = document.createElement('div');
 resultContainer.style.marginTop = '30px';
 
 if (results.length === 0) {
+
 // Display a message when there are no search results
 const noResultsMessage = document.createElement('p');
 noResultsMessage.textContent = 'No results found.';
 resultContainer.appendChild(noResultsMessage);
 } else {
+
 // Display the search results for each video
 document.querySelector('#results-container').innerHTML = ""; // Clear previous search results
 results.forEach(result => {
@@ -148,6 +153,7 @@ document.querySelector('#results-container').appendChild(resultContainer);
 }
 })
 .catch(error => {
+
 // Handle errors that occur during the API request
 console.error(error);
 });
