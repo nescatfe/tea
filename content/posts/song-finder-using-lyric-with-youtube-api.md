@@ -62,4 +62,14 @@ nah disini gue akan coba masukin `searchQuery` tiga kali
 *so far result*nya sama seperti apa yang gue mau, _smooth af_
 ![query result](/img/test-api-lyric.png)
 
-udahan ah sampe sini gue mau istirahat dulu, updatenya _tarrrrrrr_
+udahan ah sampe sini gue mau istirahat dulu.
+
+### Update #1
+It appears that Youtube may have implemented limits on API usage. These limitations have made it harder for me to complete this thing, so I may have to wait until the issue is resolved. However, I need to understand how Youtube regulates their API usage to ensure that I am following the rules and best practices.
+![yt-lyric-update](/img/test-api-update.png)
+
+### Update #2
+So the problem is that a bot crawler may have accessed my API, which was left widely open on my github repository. As a result, my query quota has been maxed out at 10k. I remember setting a restriction to limit key usage requests to specific websites, but I accidentally removed it while testing on localhost, which led to the issue.
+
+
+![max-quota](/img/max-quota.png)
