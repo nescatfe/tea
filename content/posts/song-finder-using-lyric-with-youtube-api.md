@@ -12,12 +12,8 @@ _build = {list = "always"}
 cascade = {_build = {list = "never"}}
 +++
 
-Jadi jujur sebenernya ini agak `useless`, tapi gue tetep mau coba ini ntar larinya kemana gue juga gatau. Jadi gue lagi mainan API youtube, yang gatau api 
-
 
 > Application Programming Interface, is a set of protocols, routines, and tools for building software applications. Essentially, an API specifies how different software components should interact with each other, and it allows developers to access and manipulate the functionality and data of a particular software system or service.
-
-Singkatnya API ini bisa dipake buat komunikasi antara aplikasi yang berbeda, kita bisa bikin aplikasi baru pake layanan aplikasi sama sistem yang sudah ada. Contohnya sih dulu ada __TweetDeck__, jadi kita bikin tweet pake aplikasi yang bukan resmi dari Twitter.
 
 `TL;DR`, gue kepikiran pake API youtube buat nampilin hasil search pake javascript trus gue mau hasilnya _tar_ yang keluar adalah adalah kategori musik (bukan video _vlog/podcast or other shits_) beserta link-nya, terus ntar tinggal gue kembangin mau dibawa kemana.
 
