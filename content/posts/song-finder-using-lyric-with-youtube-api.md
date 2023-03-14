@@ -62,7 +62,6 @@ nah disini gue akan coba masukin `searchQuery` tiga kali
 so far, smooth af
 ![query result](/img/test-api-lyric.png)
 
-<<<<<<< HEAD
 udahan ah sampe sini gue mau istirahat dulu.
 
 ### Update #1
@@ -74,6 +73,3 @@ So the problem is that a bot crawler may have accessed my API, which was left wi
 
 
 ![max-quota](/img/max-quota.png)
-=======
-udahan ah sampe sini gue mau istirahat dulu, update lagi tar
->>>>>>> 093efaae878365c528fb5abc693cc94ed2f8e45d
