@@ -14,7 +14,7 @@ cascade = {_build = {list = "never"}}
 
 > Application Programming Interface, is a set of protocols, routines, and tools for building software applications. Essentially, an API specifies how different software components should interact with each other, and it allows developers to access and manipulate the functionality and data of a particular software system or service.
 
-`TL;DR`, gue kepikiran pake API youtube buat nampilin hasil search pake javascript trus gue mau hasilnya _tar_ yang keluar adalah adalah kategori musik (bukan video _vlog/podcast or other shits_) beserta link-nya, terus ntar tinggal gue kembangin mau dibawa kemana.
+`TL;DR`, gue kepikiran pake API youtube buat nampilin hasil search pake javascript trus gue mau hasilnya _tar_ yang keluar adalah adalah kategori musik (bukan _video vlog/podcast or other_) + link, terus ntar tinggal gue kembangin
 
 **youtube.js**
 ```Javascript
@@ -44,12 +44,12 @@ console.log(titles);
 console.error(error); 
 }); 
 ```
-_btw_ musik di youtube pake kode kategori 10
-`video&videoCategoryId=10` line 11 di code
+_btw_ konten musik diyoutube pake kode kategori 10
+`&videoCategoryId=10` di line 11
 ```javascript
 fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchQuery}&type=video&videoCategoryId=10&regionCode=${countryCode}&key=${apiKey}`) 
 ```
-nah disini gue akan coba masukin `searchQuery` tiga kali
+disini gw `run` pake 3 `query` berbeda, just to make sure
 * _ngopi ngopi ngopi ngopi mazzeh_
 * _tak cukup untuk dirimu_
 * _so mature_
@@ -57,7 +57,7 @@ nah disini gue akan coba masukin `searchQuery` tiga kali
 so far, smooth af
 ![query result](/img/test-api-lyric.png)
 
-udahan ah sampe sini gue mau istirahat dulu.
+sampe sini gue mau istirahat dulu.
 
 ## Update #1
 It appears that Youtube may have implemented limits on API usage. These limitations have made it harder for me to complete this thing, so I may have to wait until the issue is resolved. However, I need to understand how Youtube regulates their API usage to ensure that I am following the rules and best practices.
