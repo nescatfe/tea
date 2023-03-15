@@ -29,10 +29,6 @@ selectable = true
   url = "https://twitter.com/fiiascoo"
 
   [[params.social]]
-  name = "github"
-  url = "https://github.com/nescatfe/"
-
-  [[params.social]]
   name = "instagram2"
   url = "https://instagram.com/fajar.wh"
   
