@@ -25,15 +25,6 @@ function switch_theme() {
 
     switch_minima_theme(current, next)
 
-    switch (comment) {
-    case 'utterances': 
-        switch_utterances_theme(`github-${next}`)
-        break
-    case 'giscus':
-        switch_giscus_theme(next)
-        break
-    default:
-    }
 }
 
 /**
