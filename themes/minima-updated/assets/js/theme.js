@@ -1,4 +1,3 @@
-const comment = '{{ .Site.Params.comment.provider }}'
 const icon_light = '{{ index .Site.Params.switch 1 }}'
 const icon_dark = '{{ index .Site.Params.switch 0 }}'
 const THEME_LIGHT = 'light'
@@ -49,19 +48,4 @@ function switch_minima_theme(current, next) {
     classList.add(next);
     localStorage.setItem('theme', next);
     toggler.innerHTML = icon;
-}
-
-
-/** @param {string} theme  */
-function switch_utterances_theme(theme) {
-    utterances =utterances || document.querySelector('iframe.utterances-frame')
-    if (!utterances) return
-    utterances.contentWindow.postMessage({ type: 'set-theme', theme }, 'https://utteranc.es')
-}
-
-/** @param {string} theme */
-function switch_giscus_theme(theme) {
-    giscus = giscus || document.querySelector('iframe.giscus-frame')
-    if (!giscus) return
-    giscus.contentWindow.postMessage({giscus: {setConfig: {theme}}}, 'https://giscus.app')
 }

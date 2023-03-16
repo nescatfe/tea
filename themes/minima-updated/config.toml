@@ -1,4 +1,4 @@
 [module]
   [module.hugoVersion]
-    extended = true
+    extended = false
     

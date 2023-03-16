@@ -6,7 +6,6 @@
         <div class="mr-3 text-3xl" style="font-weight: bold; font-size: 20px;"><a href="/">{{ .Site.Params.brand }}</a></div>
         {{ end }}
 
-
       </div>
       <ul class="flex items-center justify-end font-medium
         whitespace-nowrap overflow-x-auto overflow-y-hidden">
@@ -14,9 +13,8 @@
         <li class="ml-4 mr-4"><a href="{{ .Identifier | relLangURL }}">{{ T .Identifier | default .Name }}</a></li>
         {{ end }}
       </ul>
+      
       <div id="theme-switch" class="text-3xl cursor-pointer">{{ index .Site.Params.switch 1 }}</div>
-
-
     </nav>
   </div>
 </header>

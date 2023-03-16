@@ -33,8 +33,6 @@ selectable = true
   url = "https://instagram.com/fajar.wh"
   
 
-  
-
   [params.math]
   enable = false
   provider = "katex"
@@ -54,7 +52,6 @@ weight = 1
 identifier = "tags"
 name = "Tags"
 weight = 2
-
 
 
 #taxonomies
