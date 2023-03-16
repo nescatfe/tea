@@ -20,13 +20,13 @@ displayDate = true
 displayDescription = false
 selectable = true
 
-  [[params.social]]
-  name = "twitter"
-  url = "https://twitter.com/fiiascoo"
-
-  [[params.social]]
-  name = "instagram2"
-  url = "https://instagram.com/fajar.wh"
+# [[params.social]]
+# name = "twitter"
+# url = "https://twitter.com/fiiascoo"
+#
+# [[params.social]]
+# name = "instagram2"
+# url = "https://instagram.com/fajar.wh"
   
 
   [params.math]
