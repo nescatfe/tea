@@ -32,16 +32,17 @@ body {
 }
 
 main {
-  animation: showup 0.7s;
+  animation: showup 0.5s;
 }
 
 main p a {
   color: var(--prime);
+  text-decoration: underline wavy red;
 }
 
 main p a:hover {
-  text-decoration: underline;
-  font-weight: bolder;
+  text-decoration: underline wavy blue  ;
+  color: red;
 }
 
 @keyframes showup {
@@ -55,4 +56,3 @@ main p a:hover {
     transform: none;
   }
 }
-
