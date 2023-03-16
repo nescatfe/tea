@@ -162,10 +162,10 @@ console.error(error);
 ```
 
 ---
-## Here it is ✨
+## Here it is
 [/findlyrics/](https://mybae.id/findlyrics) try it!
 
-[__Github__](https://github.com/nescatfe/nescatfe.github.io/tree/main/findlyrics)
+[Github](https://github.com/nescatfe/nescatfe.github.io/blob/main/findlyrics/youtube.js)
 
 ---
 
