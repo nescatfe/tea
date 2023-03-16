@@ -9,20 +9,16 @@ defaultContentLanguage = "en"
 
 [author]
 name = "Alvernood"
-description = "Spending my free time tinkering with code and exploring new ways to express myself through writing."
+description = "Spending my free time tinkering with code and exploring new ways to express myself."
 
 [params]
 brand = "Alvernood"
-greet = "👋 Hey there, I'm Fajar!"
+greet = "Fajar's website"
 switch = [ "☼", "☽" ]
 defaultTheme = "light"
 displayDate = true
 displayDescription = false
 selectable = true
-
-  [[params.social]]
-  name = "project"
-  url = "https://mybae.id/#project"
 
   [[params.social]]
   name = "twitter"
