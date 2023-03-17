@@ -4,7 +4,6 @@ title = 'Vue.js'
 date = 2022-07-12T15:39:41+07:00
 draft = false
 description = ''
-tags = ['']
 categories = ['']
 math = false
 diagram = false

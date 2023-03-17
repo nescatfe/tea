@@ -16,7 +16,7 @@
     <div>
       {{ range $tag := .Params.tags }}
       {{ $url := printf "tags/%s" $tag | relLangURL }}
-      <a class="ml-1" href="{{ $url }}">#{{ . }}</a>
+      <a class="tags" href="{{ $url }}">{{ . }}</a>
       {{ end }}
     </div>
     {{ end }}
